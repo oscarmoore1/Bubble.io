@@ -14,6 +14,17 @@
 		2F05144729A604EA008809CB /* Bubble_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05144629A604EA008809CB /* Bubble_ioTests.swift */; };
 		2F05145129A604EA008809CB /* Bubble_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05145029A604EA008809CB /* Bubble_ioUITests.swift */; };
 		2F05145329A604EA008809CB /* Bubble_ioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05145229A604EA008809CB /* Bubble_ioUITestsLaunchTests.swift */; };
+		2F435EE729ADC65B001A4836 /* BubblesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435EE629ADC65B001A4836 /* BubblesPageView.swift */; };
+		2F435F2329B46B24001A4836 /* MessagingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F2229B46B24001A4836 /* MessagingPage.swift */; };
+		2F435F2629C034AE001A4836 /* BubbleData.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2F435F2529C034AE001A4836 /* BubbleData.rtf */; };
+		2F435F3429C04CB3001A4836 /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F3329C04CB3001A4836 /* RegisterForm.swift */; };
+		2F435F3629C0832A001A4836 /* bubble_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F435F3529C0832A001A4836 /* bubble_data.json */; };
+		2F435F3E29C1B45A001A4836 /* ConfigReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F3D29C1B45A001A4836 /* ConfigReader.swift */; };
+		2F435F4229C41A83001A4836 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F4129C41A83001A4836 /* LandingPage.swift */; };
+		2F435F4429C42AE3001A4836 /* UserStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F4329C42AE3001A4836 /* UserStructure.swift */; };
+		2F435F4629C42B12001A4836 /* MessageStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F4529C42B12001A4836 /* MessageStructure.swift */; };
+		2F435F4829C42B9D001A4836 /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F4729C42B9D001A4836 /* ContentMessageView.swift */; };
+		2F435F4A29C43C4A001A4836 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F435F4929C43C4A001A4836 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,18 @@
 		2F05144C29A604EA008809CB /* Bubble.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bubble.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F05145029A604EA008809CB /* Bubble_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble_ioUITests.swift; sourceTree = "<group>"; };
 		2F05145229A604EA008809CB /* Bubble_ioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble_ioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F435EE629ADC65B001A4836 /* BubblesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesPageView.swift; sourceTree = "<group>"; };
+		2F435F2229B46B24001A4836 /* MessagingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingPage.swift; sourceTree = "<group>"; };
+		2F435F2529C034AE001A4836 /* BubbleData.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = BubbleData.rtf; path = "../../../Library/Mobile Documents/com~apple~TextEdit/Documents/BubbleData.rtf"; sourceTree = "<group>"; };
+		2F435F2C29C04166001A4836 /* Bubble-io-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bubble-io-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2F435F3329C04CB3001A4836 /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
+		2F435F3529C0832A001A4836 /* bubble_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bubble_data.json; path = ../../../../Downloads/bubble_data.json; sourceTree = "<group>"; };
+		2F435F3D29C1B45A001A4836 /* ConfigReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigReader.swift; sourceTree = "<group>"; };
+		2F435F4129C41A83001A4836 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		2F435F4329C42AE3001A4836 /* UserStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStructure.swift; sourceTree = "<group>"; };
+		2F435F4529C42B12001A4836 /* MessageStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageStructure.swift; sourceTree = "<group>"; };
+		2F435F4729C42B9D001A4836 /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
+		2F435F4929C43C4A001A4836 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +117,9 @@
 		2F05143429A604E8008809CB /* Bubble.io */ = {
 			isa = PBXGroup;
 			children = (
+				2F435F2C29C04166001A4836 /* Bubble-io-Info.plist */,
+				2F435EE929B4660C001A4836 /* Service */,
+				2F435EE829B46601001A4836 /* Core */,
 				2F05143529A604E8008809CB /* Bubble_ioApp.swift */,
 				2F05143729A604E8008809CB /* ContentView.swift */,
 				2F05143929A604E9008809CB /* Assets.xcassets */,
@@ -121,10 +147,43 @@
 		2F05144F29A604EA008809CB /* Bubble.ioUITests */ = {
 			isa = PBXGroup;
 			children = (
+				2F435F2529C034AE001A4836 /* BubbleData.rtf */,
 				2F05145029A604EA008809CB /* Bubble_ioUITests.swift */,
 				2F05145229A604EA008809CB /* Bubble_ioUITestsLaunchTests.swift */,
 			);
 			path = Bubble.ioUITests;
+			sourceTree = "<group>";
+		};
+		2F435EE829B46601001A4836 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F435F2429C0332B001A4836 /* Components */,
+				2F435EE629ADC65B001A4836 /* BubblesPageView.swift */,
+				2F435F2229B46B24001A4836 /* MessagingPage.swift */,
+				2F435F4129C41A83001A4836 /* LandingPage.swift */,
+				2F435F4929C43C4A001A4836 /* MessageView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2F435EE929B4660C001A4836 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2F435F3529C0832A001A4836 /* bubble_data.json */,
+				2F435F3D29C1B45A001A4836 /* ConfigReader.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2F435F2429C0332B001A4836 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F435F3329C04CB3001A4836 /* RegisterForm.swift */,
+				2F435F4329C42AE3001A4836 /* UserStructure.swift */,
+				2F435F4529C42B12001A4836 /* MessageStructure.swift */,
+				2F435F4729C42B9D001A4836 /* ContentMessageView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F435F2629C034AE001A4836 /* BubbleData.rtf in Resources */,
+				2F435F3629C0832A001A4836 /* bubble_data.json in Resources */,
 				2F05143D29A604E9008809CB /* Preview Assets.xcassets in Resources */,
 				2F05143A29A604E9008809CB /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F435F4229C41A83001A4836 /* LandingPage.swift in Sources */,
+				2F435EE729ADC65B001A4836 /* BubblesPageView.swift in Sources */,
 				2F05143829A604E8008809CB /* ContentView.swift in Sources */,
+				2F435F4629C42B12001A4836 /* MessageStructure.swift in Sources */,
+				2F435F2329B46B24001A4836 /* MessagingPage.swift in Sources */,
+				2F435F3429C04CB3001A4836 /* RegisterForm.swift in Sources */,
+				2F435F4A29C43C4A001A4836 /* MessageView.swift in Sources */,
+				2F435F3E29C1B45A001A4836 /* ConfigReader.swift in Sources */,
+				2F435F4429C42AE3001A4836 /* UserStructure.swift in Sources */,
+				2F435F4829C42B9D001A4836 /* ContentMessageView.swift in Sources */,
 				2F05143629A604E8008809CB /* Bubble_ioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +489,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bubble.io/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bubble-io-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -447,7 +517,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bubble.io/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bubble-io-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
