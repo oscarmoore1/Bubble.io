@@ -23,6 +23,6 @@ struct ContentMessageView: View {
 
 struct ContentMessageView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentMessageView(contentMessage: "Hi< I am a friend", isCurrentUser: false)
+        ContentMessageView(contentMessage: "Hi, I am a friend", isCurrentUser: false)
     }
 }

@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import FirebaseAuth
+import FirebaseDatabase
 
 struct LandingPage: View {
+//    var ref: DatabaseReference!
+//    ref = Database.database().reference()
+    
+    
     let color = Color(red: 65/255.0, green: 169/255.0, blue: 202/255.0, opacity: 1)
     @State var shouldShowNextView = false
     @State var name = ""
+
     
     var body: some View {
         
@@ -41,6 +49,7 @@ struct LandingPage: View {
                             "",
                             text: $name,
                             onCommit:{
+                                loginSequence(var: name)
                                 shouldShowNextView = true
                             })
                         .offset(x:55)
@@ -83,6 +92,40 @@ struct LandingPage: View {
             .padding()
             
         }
+    }
+}
+
+private func loginSequence(var nickname: String){
+    let url = URL(string: "http://localhost:3000/login/hsis")!
+//    var request = URLRequest(url: url)
+//    request.httpMethod = "POST"
+//
+//    let jsonData = try JSONSerialization.data(withJSONObject: ["key": "value"], options: [])
+//    request.httpBody = jsonData
+//    request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+//
+//    let session = URLSession.shared
+//    let task = session.dataTask(with: request) { data, response, error in
+//        guard let data = data, let response = response as? HTTPURLResponse, error == nil else {
+//            print("Error: \(error?.localizedDescription ?? "Unknown error")")
+//            return
+//        }
+//
+//        if response.statusCode == 200 {
+//            print("Request successful")
+//            // Process the response data
+//        } else {
+//            print("Request failed with status code: \(response.statusCode)")
+//        }
+//    }
+    
+    Auth.auth().signInAnonymously { authResult, error in
+        guard let result = authResult, error == nil else {
+            print("Failed to log in")
+            return
+        }
+        let user = result.user
+        print("Logged in user")
     }
 }
 
