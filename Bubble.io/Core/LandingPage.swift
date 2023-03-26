@@ -97,28 +97,6 @@ struct LandingPage: View {
 
 private func loginSequence(var nickname: String){
     let url = URL(string: "http://localhost:3000/login/hsis")!
-//    var request = URLRequest(url: url)
-//    request.httpMethod = "POST"
-//
-//    let jsonData = try JSONSerialization.data(withJSONObject: ["key": "value"], options: [])
-//    request.httpBody = jsonData
-//    request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//
-//    let session = URLSession.shared
-//    let task = session.dataTask(with: request) { data, response, error in
-//        guard let data = data, let response = response as? HTTPURLResponse, error == nil else {
-//            print("Error: \(error?.localizedDescription ?? "Unknown error")")
-//            return
-//        }
-//
-//        if response.statusCode == 200 {
-//            print("Request successful")
-//            // Process the response data
-//        } else {
-//            print("Request failed with status code: \(response.statusCode)")
-//        }
-//    }
-    
     Auth.auth().signInAnonymously { authResult, error in
         guard let result = authResult, error == nil else {
             print("Failed to log in")
