@@ -1,6 +1,6 @@
 # Bubble.io
 
-The motivation for this project comes from an asisgnment for INFO1111 aimed at devleping my self-learning skills.
+The motivation for this project comes from an asisgnment for INFO1111 aimed at developing my self-learning skills.
 
 My use case for this project:
 
