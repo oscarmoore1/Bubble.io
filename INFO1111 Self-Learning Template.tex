@@ -193,26 +193,14 @@ Please proceed to following page...
     \label{fig:image2}
   \end{subfigure}
   \caption{
-The way this works: the Swift file finds the JSON file in its local repository and passes it through a LoadJson() function. This function returns the bubble object in the correct format as defined by the structure in the code.
+The way this works: the Swift file finds the JSON file in its local repository and passes it through a LoadJson() function. This function returns the bubble object in the correct format as defined by the structure in the code.\\
 }
-The following code includes the logic used in order to output the bubbles onto the screen. I have also included a screenshot of what the preview of the app looked like for the respective page.
 
-  \begin{subfigure}[h]{0.3\textwidth}
-    \includegraphics[width=\textwidth]{preview.png}
-    \caption{preview of page}
-    \label{fig:image1}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[h]{0.7\textwidth}
-    \includegraphics[width=\textwidth]{viewbubble.png}
-    \caption{Sinpet of code for page}
-    \label{fig:image2}
-  \end{subfigure}
-  \caption{
-The way this works: the Swift file finds the JSON file in its local repository and passes it through a LoadJson() function. This function returns the bubble object in the correct format as defined by the structure in the code.
-The BubbleCircle function is called and returns the bubble circle view that you can see on the left hand side. It takes the name and size parameters and outputs the circles accordingly
-}
-  \label{fig:images}
+** What is my code doing and how it uses: variables, values, chaining classes, objects, namespaces?
+The code above is creating an object that can read a JSON file. I do this so that I can retrieve information from a file and implement it in using my swift code. I make a bubble object class that will act as the group chat. The bubble object has variables: id (for bubble id), name (name of group chat) , range (range of bubble) and a boolean (to state whether the group chat is private or not). \\
+I chain this class with the ResponseData class. The role of the response data class is that it creates an array of bubble objects, so that the user can have access to multiple group chats at once.\\
+The namespace used here is the swiftUI module. The 'import' key word at the top of the code is used to bring the code defined in SwiftUi into my file. The library allows me to output previews of my code.**\\
+
 \end{figure}
 
 %=============================================================================
