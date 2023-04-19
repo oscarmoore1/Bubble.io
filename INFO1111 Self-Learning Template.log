@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.23)  18 APR 2023 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.23)  19 APR 2023 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,7 +569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--203
 
  []
 
-[6] [7 <./json.png> <./readjson.png>] [8] [9]
+[6] [7 <./json.png> <./readjson.png>] [8] [9] [10]
 No file "INFO1111 Self-Learning Template".bbl.
 (./INFO1111 Self-Learning Template.aux)
 
@@ -580,13 +580,13 @@ ot changed.
 (rerunfilecheck)             Checksum: D6558721B591636046E4E4FC48DC4384;3293.
  ) 
 Here is how much of TeX's memory you used:
- 12347 strings out of 478268
- 204034 string characters out of 5846347
+ 12348 strings out of 478268
+ 204041 string characters out of 5846347
  511733 words of memory out of 5000000
  30376 multiletter control sequences out of 15000+600000
  482764 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,8n,77p,686b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,8n,77p,751b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></
 usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
@@ -594,11 +594,11 @@ r/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
 local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
 cal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/loca
 l/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "INFO1111 Self-Learning Template.pdf" (10 pages, 1215041 byte
+Output written on "INFO1111 Self-Learning Template.pdf" (11 pages, 1218536 byte
 s).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,9 +13,9 @@
 \contentsline {subsection}{\numberline {3.2.}Weaknesses}{8}{subsection.0.3.2}%
 \contentsline {subsection}{\numberline {3.3.}Usefulness}{8}{subsection.0.3.3}%
 \contentsline {subsection}{\numberline {3.4.}Key Question 1}{8}{subsection.0.3.4}%
-\contentsline {subsection}{\numberline {3.5.}Key Question 2}{8}{subsection.0.3.5}%
-\contentsline {section}{\numberline {4.}Level D: Evolution of skills}{9}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1.}Level D Demonstration}{9}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2.}Application artifacts}{9}{subsection.0.4.2}%
-\contentsline {subsection}{\numberline {4.3.}Alternative tools/technologies}{9}{subsection.0.4.3}%
-\contentsline {subsection}{\numberline {4.4.}Comparative Analysis}{9}{subsection.0.4.4}%
+\contentsline {subsection}{\numberline {3.5.}Key Question 2}{9}{subsection.0.3.5}%
+\contentsline {section}{\numberline {4.}Level D: Evolution of skills}{10}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1.}Level D Demonstration}{10}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2.}Application artifacts}{10}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3.}Alternative tools/technologies}{10}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4.}Comparative Analysis}{10}{subsection.0.4.4}%
