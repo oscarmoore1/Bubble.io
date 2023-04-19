@@ -271,7 +271,74 @@ This is a short description of the application that you have developed. (50-100 
 
 Include here a description of what you actually created (what does it do? How does it work? How did you create it?). Include any code or other related artefacts that you created (these should also be included in your github repository).
 
-If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.
+If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.\\
+\\
+
+My initial product proposal for this project was to create a messaging platform at a very basic level. The issue with this initial outlay was that in order to have users communicate through my app, I would have to integrate additional software tools such as Firebase (to store user information in a database). I deduced that it would be impossible to complete the project without collaboration with other tools. I will only cover the swift components of my project in this section of the report, however, I am aware that contributions from other languages/applications would be needed to complete the entirety of the project.\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+
+\begin{figure}
+My first objective was to create a landing page for the user. I added the Zeplin package to my project to further aid the design process. After a week of rigorous trial and error, I programmed the following:
+\\
+\\
+  \begin{subfigure}[h]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{1.png}
+    \caption{preview of landing page}
+    \label{fig:image1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[h]{0.7\textwidth}
+    \includegraphics[width=\textwidth]{2.png}
+    \caption{Sinpet of code for landing page}
+    \label{fig:image2}
+  \end{subfigure}
+  \caption{The brunt of the information on the landing screen was included in a VStack as you can see above. This organized all my information vertically down the screen. In terms of the logic of the above code, there is very little. It is mostly formatting code so that it looks visually pleasing.\\}
+  \label{fig:images}
+\end{figure}
+
+\begin{figure}
+The following code includes the logic used in order to output the bubbles onto the screen. I have also included a screenshot of what the preview of the app looked like for the respective page.
+
+\begin{subfigure}[h]{0.3\textwidth}
+  \includegraphics[width=\textwidth]{preview.png}
+  \caption{preview of page}
+  \label{fig:image1}
+\end{subfigure}
+\hfill
+\begin{subfigure}[h]{0.7\textwidth}
+  \includegraphics[width=\textwidth]{viewbubble.png}
+  \caption{Sinpet of code for page}
+  \label{fig:image2}
+\end{subfigure}
+\caption{
+The way this works: the Swift file finds the JSON file in its local repository and passes it through a LoadJson() function. This function returns the bubble object in the correct format as defined by the structure in the code.
+The BubbleCircle function is called and returns the bubble circle view that you can see on the left hand side. It takes the name and size parameters and outputs the circles accordingly
+}
+  \label{fig:images}
+ 
+\end{figure}
 
 \subsection{Alternative tools/technologies}
 Identify 2 alternative tools/technologies that can be used instead of the one you studied for your topic. (e.g. if your topic was Python, then you might identify Java and Golang)
