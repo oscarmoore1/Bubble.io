@@ -115,10 +115,12 @@ Swift youtube video: \href{https://www.youtube.com/watch?v=6v4fmg9iRSU&t=87s&ab_
 \end{tabular}
 
 \subsection{Application artifacts}
+My initial product outlay was to create a simple landing page for the user in Swift. I added the Zeplin package to my project to further aid the design process. Zeplin aided me to find the correct button and colour functions that I needed for my design. 
 
-My initial product proposal for this project was to create a messaging platform at a very basic level. The issue with this initial outlay was that in order to have users communicate through my app, I would have to integrate additional software tools such as Firebase (to store user information in a database). I deduced that it would be impossible to complete the project without collaboration with other tools. I will only cover the swift components of my project in this section of the report, however, I am aware that contributions from other languages/applications would be needed to complete the entirety of the project.\\
-\\
-My first objective was to create a landing page for the user. I added the Zeplin package to my project to further aid the design process. After a week of rigorous trial and error, I programmed the following:
+After a few hours of rigorous trial and error, I programmed the following:
+
+I use a very simple view that contains a title, some text and a text field input. I used a Vstack that contains the main content of the view to store my information vertically. Inside of the Vstack, I have a horizontal stack which contains the text views with different colours and fonts. They are positioned next to each other using the “spacing” parameter of the Hstack and offset using the “offset” modifier.
+When the user presses “return” on the keyboard the “onCommit’ closure is called, which calls a function called “login sequence” with the name of the variable as a parameter. The function will set the “ShouldShowNextView” to true and change the view to a new one (Which I havn’t programmed yet).
 \\
 \\
 Please proceed to the next page...
@@ -139,20 +141,6 @@ Please proceed to the next page...
   \label{fig:images}
 \end{figure}
 
-
-%=============================================================================
-\newpage
-The only challenging part above was managing the login sequence of the user. When the user writes in their username and presses the ‘enter’ key, the loginsequence() function is called.
-\\
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=0.8\textwidth]{3.png}
-  \caption{Function code}
-  \label{fig:example}
-\end{figure}
-
-This function basically registers the user into the database and authorises it to move to the next page. This is the first place that my program interacts with firebase, the user is given a unique identifier that is stored on the database. I decided to use the anonymous user authentication function that firebase provides since I wanted to avoid a long and tedious user registration process (The create account button on the display above was used in case the user wanted to save message history). If the login sequence is successful, the user is directed to the next swift page.
-
 %=============================================================================
 
 \newpage
@@ -162,22 +150,16 @@ Whilst level A is about doing something simple with the topic to just show that 
 
 \subsection{Level B Demonstration}
 
-In order to make the project described above actually useful, I would have to draw up an appropriate use case.  I decided to slightly change the initial project outlay to include additional features that would make it a useful piece of software. \\
+In order to make the project described above actually useful, I would have to draw up an appropriate use case.  I decided to make a messaging app incorporate the location of the user \\
 \\
-Although a messaging app by itself would be highly useful, there are hundreds of much better alternatives already accessible. I decided to add an extra component to my app:\\
 -The app would consider the location of the user\\
 -I would have pre-defined group chats that could only\\ be accessed when the user was physically within the pre-defined radius.\\
--The app would suggest group chats that fall within the physical radius of the user.\\
 \\
 With the above requirements, the app would qualify as something that I would find useful to communicate with friends in my vicinity.
 
-
-
 \subsection{Application artifacts}
 
-Similar to the previous section, I will only provide artefacts that include code that I wrote in Swift since that is the topic I am self-learning.\\
 The first step in providing the user with unique group chats based on location was by finding a way to pass information from a file into the Swift program. I decided to pass the parameters of the group chat (which I called bubbles in my app) using a JSON file, which my swift program read. The following screenshots include the JSON file with the necessary parameters for the ‘bubble’ and the config reader program I made to process this information.\\
-\\
 Please proceed to following page...
 
 \begin{figure}
@@ -266,6 +248,8 @@ Closures are more commonly used for sorting and filtering operations. This is be
 
 This is a short description of the application that you have developed. (50-100 words).
 \textit{{\bf IMPORTANT:} You might wish to submit this as part of an earlier submission in order to obtain feedback as to whether this is likely to be acceptable for level D.}
+\\
+I have created a very basic messaging app that creates pre-defined group chats based on the information in a JSON. The JSON has information about the pre-defined group chats including the radius that the group chat covers. Hence, my end product would hide group chats from users that are not in the radius
 
 \subsection{Application artifacts}
 
@@ -273,50 +257,27 @@ Include here a description of what you actually created (what does it do? How do
 
 If you do include screengrabs to show what you have done then these should be annotated to explain what it is showing and what the application does.\\
 \\
-
 My initial product proposal for this project was to create a messaging platform at a very basic level. The issue with this initial outlay was that in order to have users communicate through my app, I would have to integrate additional software tools such as Firebase (to store user information in a database). I deduced that it would be impossible to complete the project without collaboration with other tools. I will only cover the swift components of my project in this section of the report, however, I am aware that contributions from other languages/applications would be needed to complete the entirety of the project.\\
 \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
 
-\begin{figure}
-My first objective was to create a landing page for the user. I added the Zeplin package to my project to further aid the design process. After a week of rigorous trial and error, I programmed the following:
+\newpage
+The challenging part above was managing the login sequence of the user. When the user writes in their username and presses the ‘enter’ key, the loginsequence() function is called.
 \\
-\\
-  \begin{subfigure}[h]{0.5\textwidth}
-    \includegraphics[width=\textwidth]{1.png}
-    \caption{preview of landing page}
-    \label{fig:image1}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[h]{0.7\textwidth}
-    \includegraphics[width=\textwidth]{2.png}
-    \caption{Sinpet of code for landing page}
-    \label{fig:image2}
-  \end{subfigure}
-  \caption{The brunt of the information on the landing screen was included in a VStack as you can see above. This organized all my information vertically down the screen. In terms of the logic of the above code, there is very little. It is mostly formatting code so that it looks visually pleasing.\\}
-  \label{fig:images}
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.8\textwidth]{3.png}
+ \caption{Function code}
+ \label{fig:example}
 \end{figure}
+
+This function basically registers the user into the database and authorises it to move to the next page. This is the first place that my program interacts with firebase, the user is given a unique identifier that is stored on the database. I decided to use the anonymous user authentication function that firebase provides since I wanted to avoid a long and tedious user registration process (The create account button on the display above was used in case the user wanted to save message history). If the login sequence is successful, the user is directed to the next swift page.
+
+Once you were navigated away from the landing page, I had to create the interface for the group chats. Since I called my group chat bubbles, I decided to use physical bubbles to represent the group chats in my app.\\
+
+Once again, I stored all the contents of the page in a VStack so that all the contents would be displayed vertically. Inside the Vstack, I use  Hstack which contains two text views with different colours and fonts. The first text view has an “onAppear” closure that loads the data from the JSON file (Explained in level B) into the “bubble variable” which I explain later. \\
+There is an Hstack that contains a ForEach loop, this loops through the “bubbles” array and creates instances of BubbleCircles view for each item. The objects take parameters: name and size.
+The colours, fonts, sizes and positions of the views are customized using the “foreground color”, “font”, “frame” and “offset” modifiers.
+
 
 \begin{figure}
 The following code includes the logic used in order to output the bubbles onto the screen. I have also included a screenshot of what the preview of the app looked like for the respective page.
@@ -339,6 +300,17 @@ The BubbleCircle function is called and returns the bubble circle view that you 
   \label{fig:images}
  
 \end{figure}
+
+\newpage
+This is the code for the bubble class that takes in the parameters of the bubble and outputs a bubble object. I use the in-built Circle() function to mimic the look of a bubble. I put all the contents of the bubble inside of a Zstack. The bubble has the following parameters: color, name, and size. The color of the bubble stays constant since I want all the groupchats to look the same.
+\\
+\begin{figure}[ht]
+ \centering
+ \includegraphics[width=0.8\textwidth]{BubbleObject}
+ \caption{Object code}
+ \label{fig:example}
+\end{figure}
+
 
 \subsection{Alternative tools/technologies}
 Identify 2 alternative tools/technologies that can be used instead of the one you studied for your topic. (e.g. if your topic was Python, then you might identify Java and Golang)
