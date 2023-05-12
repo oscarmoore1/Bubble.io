@@ -84,7 +84,7 @@ struct LandingPage: View {
                         destination: BubblesPageView(),
                         isActive: $shouldShowNextView,
                         label: {
-                            
+        
                             EmptyView()
                         })
                 }

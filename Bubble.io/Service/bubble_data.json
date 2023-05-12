@@ -1,0 +1,31 @@
+{
+    "bubbles": [
+        {
+            "id": 1,
+            "name": "Bubble 1",
+            "Range": 10,
+            "Private": true
+        },
+        {
+            "id": 2,
+            "name": "Bubble 2",
+            "Range": 15,
+            "Private": false
+        },
+        {
+            "id": 3,
+            "name": "Bubble 3",
+            "Range": 20,
+            "Private": false
+        },
+        {
+            "id": 4,
+            "name": "Bubble 4",
+            "Range": 25,
+            "Private": true
+        }
+    ]
+}
+
+
+
