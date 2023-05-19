@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct BubblesPageView: View {
     let color = Color(red: 65/255.0, green: 169/255.0, blue: 202/255.0, opacity: 1)
     @State private var bubbles: [BubbleObject] = []
@@ -39,7 +40,9 @@ struct BubblesPageView: View {
             HStack(spacing: -10){
 //                let render = Render(NumberOfCircles: CGFloat(bubbles.count))
                 ForEach(bubbles) { bubble in
-                    BubbleCircle(name: bubble.name, size: 110)
+                    NavigationLink(destination: Chat()) {
+                        BubbleCircle(name: bubble.name, size: 110)
+                    }
                 }
             }
             
@@ -65,6 +68,7 @@ func Render(BubbleList: [BubbleObject]) -> (() -> Void)? {
 }
 
 struct BubbleCircle: View {
+    @State private var isAnimating = false
     let color = Color(red: 65/255.0, green: 169/255.0, blue: 202/255.0, opacity: 1)
     let name: String
     let size: CGFloat
@@ -73,6 +77,13 @@ struct BubbleCircle: View {
         ZStack {
             Circle()
                 .foregroundColor(color)
+                .scaleEffect(isAnimating ? 1 : 0.9)
+                .opacity(isAnimating ? 1 : 0.9)
+                .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: true))
+                .onAppear() {
+                    self.isAnimating = true
+                }
+            
             Text(name)
                 .foregroundColor(.white)
         }

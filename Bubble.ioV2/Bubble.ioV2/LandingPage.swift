@@ -51,6 +51,7 @@ struct LandingPage: View {
                             onCommit:{
                                 loginSequence(var: name)
                                 shouldShowNextView = true
+                                
                             })
                         .offset(x:55)
                         .foregroundColor(color)
@@ -75,22 +76,22 @@ struct LandingPage: View {
                         }
                 }
                 .offset(x:0, y:250)
-                Text("Have an account? Log in")
+                Text("Want to create an account?")
                     .foregroundColor(Color(red: 32/255.0, green: 35/255.0, blue: 37/255.0, opacity: 1))
                     .frame(width: 186, height: 24)
                     .font(Font.custom("Inter-Regular", size: 16))
                     .offset(x:0, y:250)
                 
                 //                                Navigate to the next page
-//                if shouldShowNextView{
-//                    NavigationLink(
-//                        destination: BubblesPageView(),
-//                        isActive: $shouldShowNextView,
-//                        label: {
-//
-//                            EmptyView()
-//                        })
-//                }
+                if shouldShowNextView{
+                    NavigationLink(
+                        destination: BubblesPageView(),
+                        isActive: $shouldShowNextView,
+                        label: {
+
+                            EmptyView()
+                        })
+                }
             }
             .padding()
             

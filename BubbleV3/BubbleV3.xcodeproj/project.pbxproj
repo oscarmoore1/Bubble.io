@@ -20,6 +20,7 @@
 		2F46B7B22A134A7D006C1F0B /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46B7B12A134A7D006C1F0B /* RegisterForm.swift */; };
 		2F46B7B62A134D99006C1F0B /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46B7B52A134D99006C1F0B /* ContentMessageView.swift */; };
 		2F46B7B92A134DC3006C1F0B /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46B7B82A134DC3006C1F0B /* MessageView.swift */; };
+		2F46B7BB2A173C1E006C1F0B /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46B7BA2A173C1E006C1F0B /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2F46B7B12A134A7D006C1F0B /* RegisterForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterForm.swift; path = ../../Bubble.io/Core/Components/RegisterForm.swift; sourceTree = "<group>"; };
 		2F46B7B52A134D99006C1F0B /* ContentMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
 		2F46B7B82A134DC3006C1F0B /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = ../../../Bubble.io/Core/Components/Messages/MessageView.swift; sourceTree = "<group>"; };
+		2F46B7BA2A173C1E006C1F0B /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				2F46B7812A13492B006C1F0B /* Assets.xcassets */,
 				2F46B7B12A134A7D006C1F0B /* RegisterForm.swift */,
 				2F46B7832A13492B006C1F0B /* Preview Content */,
+				2F46B7BA2A173C1E006C1F0B /* Chat.swift */,
 			);
 			path = BubbleV3;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				2F46B7A82A13497B006C1F0B /* LandingPage.swift in Sources */,
 				2F46B7AE2A1349E4006C1F0B /* ConfigReader.swift in Sources */,
 				2F46B7B22A134A7D006C1F0B /* RegisterForm.swift in Sources */,
+				2F46B7BB2A173C1E006C1F0B /* Chat.swift in Sources */,
 				2F46B7B92A134DC3006C1F0B /* MessageView.swift in Sources */,
 				2F46B7AA2A1349C8006C1F0B /* BubblesPageView.swift in Sources */,
 			);
