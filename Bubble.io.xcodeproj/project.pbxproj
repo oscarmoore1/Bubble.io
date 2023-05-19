@@ -29,6 +29,7 @@
 		2F435F5629C86CAE001A4836 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2F435F5529C86CAE001A4836 /* FirebaseAuth */; };
 		2F435F5829C86CAE001A4836 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2F435F5729C86CAE001A4836 /* FirebaseDatabase */; };
 		2F46B7302A0E1709006C1F0B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F46B72F2A0E1709006C1F0B /* GoogleService-Info (1).plist */; };
+		2F46B7322A0E1872006C1F0B /* bubble_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F46B7312A0E1872006C1F0B /* bubble_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +72,8 @@
 		2F435F4729C42B9D001A4836 /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
 		2F435F4C29C85AD0001A4836 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		2F435F4E29C864DF001A4836 /* ChatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHelper.swift; sourceTree = "<group>"; };
-		2F46B72E2A0E1482006C1F0B /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
 		2F46B72F2A0E1709006C1F0B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		2F46B7312A0E1872006C1F0B /* bubble_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bubble_data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				2F435F3D29C1B45A001A4836 /* ConfigReader.swift */,
-				2F46B72E2A0E1482006C1F0B /* Directions.geojson */,
+				2F46B7312A0E1872006C1F0B /* bubble_data.json */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -321,6 +322,7 @@
 				2F46B7302A0E1709006C1F0B /* GoogleService-Info (1).plist in Resources */,
 				2F05143D29A604E9008809CB /* Preview Assets.xcassets in Resources */,
 				2F05143A29A604E9008809CB /* Assets.xcassets in Resources */,
+				2F46B7322A0E1872006C1F0B /* bubble_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

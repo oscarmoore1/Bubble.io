@@ -20,7 +20,8 @@ struct BubblesPageView: View {
                     .frame(width: 122, height: 32)
                     .font(Font.custom("Inter-Bold", size: 24))
                     .onAppear{
-                        bubbles = loadJson(filename: "Directions") ?? []
+                        bubbles = loadJson(filename: "bubble_data") ?? []
+                        
                     }
                 Text("Bubble")
                     .foregroundColor(color)

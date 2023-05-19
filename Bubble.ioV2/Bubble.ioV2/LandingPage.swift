@@ -6,9 +6,9 @@
 //
 
 import SwiftUI
-import FirebaseCore
-import FirebaseAuth
-import FirebaseDatabase
+//import FirebaseCore
+//import FirebaseAuth
+//import FirebaseDatabase
 
 struct LandingPage: View {
 //    var ref: DatabaseReference!
@@ -61,15 +61,18 @@ struct LandingPage: View {
                 .offset(x:30, y:-160)
                 
                 ZStack {
-                    Rectangle()
-                        .fill(color)
-                        .frame(width: 182, height: 48)
-                        .cornerRadius(48)
-                    Text("Create account")
-                        .foregroundColor(Color(red: 255/255.0, green: 255/255.0, blue: 255/255.0, opacity: 1))
-                        .frame(width: 118, height: 16)
-                        .font(Font.custom("Inter-Medium", size: 16))
-                    
+                    NavigationLink(destination: RegisterForm()){
+                            VStack {
+                                Rectangle()
+                                    .fill(color)
+                                    .frame(width: 182, height: 48)
+                                    .cornerRadius(48)
+                                Text("Create account")
+                                    .foregroundColor(Color(red: 255/255.0, green: 255/255.0, blue: 255/255.0, opacity: 1))
+                                    .frame(width: 118, height: 16)
+                                    .font(Font.custom("Inter-Medium", size: 16))
+                            }
+                        }
                 }
                 .offset(x:0, y:250)
                 Text("Have an account? Log in")
@@ -79,15 +82,15 @@ struct LandingPage: View {
                     .offset(x:0, y:250)
                 
                 //                                Navigate to the next page
-                if shouldShowNextView{
-                    NavigationLink(
-                        destination: BubblesPageView(),
-                        isActive: $shouldShowNextView,
-                        label: {
-        
-                            EmptyView()
-                        })
-                }
+//                if shouldShowNextView{
+//                    NavigationLink(
+//                        destination: BubblesPageView(),
+//                        isActive: $shouldShowNextView,
+//                        label: {
+//
+//                            EmptyView()
+//                        })
+//                }
             }
             .padding()
             
@@ -96,15 +99,16 @@ struct LandingPage: View {
 }
 
 private func loginSequence(var nickname: String){
-    let url = URL(string: "http://localhost:3000/login/hsis")!
-    Auth.auth().signInAnonymously { authResult, error in
-        guard let result = authResult, error == nil else {
-            print("Failed to log in")
-            return
-        }
-        let user = result.user
-        print("Logged in user")
-    }
+    print("Logged in user")
+//    let url = URL(string: "http://localhost:3000/login/hsis")!
+//    Auth.auth().signInAnonymously { authResult, error in
+//        guard let result = authResult, error == nil else {
+//            print("Failed to log in")
+//            return
+//        }
+//        let user = result.user
+//        print("Logged in user")
+//    }
 }
 
 
